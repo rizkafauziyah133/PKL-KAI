@@ -1,0 +1,297 @@
+/* Background */
+.background-top {
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+#rowCount {
+    color: #fff; /* Teks putih */
+    font-size: 58px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.rowCountText {
+    color: white;
+    font-size: 58px;
+    font-weight: 600;
+}
+.unit-account-total-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling untuk overlay */
+.overlayy {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Styling untuk dialog konfirmasi logout */
+.logout-confirmation {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 40px 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.logout-confirmation h3 {
+    margin: 0 0 20px;
+}
+
+.confirm-logout-button, .cancel-logout-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.confirm-logout-button {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.cancel-logout-button {
+    background-color: #ccc;
+    color: #000;
+}
+.logout-form {
+    display: flex;
+    justify-content: center;
+}
+
+/*Unit Account*/
+.container-unit-account {
+    padding: 65px 65px 25px 65px;
+}
+.unit-account-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container-unit-account-data {
+    width: 100%;
+    display: flex;
+    background-color: #F0F0F0;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.unit-account-data {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 50px;
+}
+.unit-account-data-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.unit-account-data-input {
+    margin-bottom: 10px;
+    height: 24px;
+}
+.unit-account-data-button {
+    height: 34px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.unit-account-data-input:hover {
+    background-color: rgb(0, 0, 255, 0.1);
+}
+.unit-account-data-button:hover {
+    background-color: rgb(243, 243, 47);
+}
+.unit-account-total-data {
+    width: 40%;
+    background-color: #0008D0;
+}
+
+
+/* Unit List */
+.container-unit-list {
+    padding: 25px 65px;
+}
+.unit-list-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.container-filter-data {
+    display: flex;
+    margin-bottom: 15px;
+}
+.container-filter-data * {
+    margin-right: 5px;
+}
+.container-search {
+    margin-bottom: 15px;
+}
+.input-search {
+    justify-content: right;
+}
+.per_page, #search {
+    margin: 0px 5px;
+}
+.list-data th, .list-data td {
+    height: 30px;
+}
+.list-data tr :nth-child(1) {
+    width: 6%;
+}
+
+.container-search {
+    display: flex;
+    flex-direction: row;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+.centered-form, .confirm-delete {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+}
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #000;
+    background-color: #f2f2f2;
+    color: #000;
+}
+.pagination a.active {
+    background-color: #000;
+    color: #fff;
+}
+.button {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background-color: #f2f2f2;
+    color: #000;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #ddd;
+}
+
+/* Edit Account*/
+.centered-form {
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 70vh;
+    width: 70vh;
+    padding: 10px 50px;
+}
+.edit-account {
+    display: flex;
+    flex-direction: column;
+}
+.edit-account-title {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+.edit-account label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.edit-account input, .edit-account button {
+    height: 24px;
+}
+.edit-account button[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 165, 0);
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.edit-account button{
+    font-weight: bold;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* Confirm Delete*/
+.confirm-delete {
+    height: 26vh;
+    padding: 0px 60px;
+}
+.confirm-delete-title {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+#deleteAccountForm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.confirm-delete-button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.confirm-cancel-button {
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}

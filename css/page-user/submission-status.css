@@ -1,0 +1,29 @@
+.container-table {
+    padding: 50px 65px;
+}
+.table-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+table {
+    width: 100%;
+}
+div * {
+    color: black;
+}
+.status-diproses {
+    background-color: rgb(255, 166, 0);
+    color: white;
+}
+.status-selesai {
+    background-color: red;
+    color: white;
+}
+.status-gagal {
+    background-color: darkred;
+    color: white;
+}
+.data-filter {
+    margin-bottom: 12px;
+}

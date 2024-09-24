@@ -1,0 +1,26 @@
+/* Background*/
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    overflow: hidden;
+}
+.container-background-left {
+    background-image: linear-gradient(to left, #080D6B 1%, rgb(8, 90, 117) 99%); /* background-color: #080D6B; */
+    height: 100vh;
+    width: 20%;
+    padding: 30px;
+}
+.container-background-right {
+    width: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.background-top {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    height: 55px;
+    padding-left: 65px;
+    font-size: 20px;
+}

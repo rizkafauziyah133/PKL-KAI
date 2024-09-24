@@ -1,0 +1,43 @@
+div * {
+    color: black;
+}
+.container-data {
+    display: flex;
+    justify-content: center;
+    padding: 0px 65px;
+}
+.data-form-title {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.data-form { 
+    height: 80%;
+    width: 80%;
+    background-color: #F0F0F0;
+    border: 2px solid darkblue;
+    padding: 30px 65px;
+}
+.data-form label {
+    font-weight: bold;
+}
+.data-form input[type="text"] {
+    margin-bottom: 5px;
+    height: 26px;
+    width: 100%;
+}
+.data-form textarea {
+    width: 100%;
+}
+.data-form input[type="submit"] {
+    height: 44px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.data-form input[type="submit"]:hover {
+    background-color: rgb(255, 255, 0, 0.8);
+}

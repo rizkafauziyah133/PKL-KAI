@@ -1,0 +1,64 @@
+/* Background */
+.background-top {
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+/*Data Pengajuan Troubleshooting*/
+.container-submission-data {
+    padding: 65px 65px 25px 65px;
+}
+.container-submission-data-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.container-filter-data {
+    display: flex;
+    margin-bottom: 15px;
+}
+.list-data-filter, .input-search {
+    margin: 0px 5px;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px, solid, black;
+}
+.list-data tr td:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+.list-data th, .list-data td {
+    height: 30px;
+}
+
+/* Data Pengajuan Troubleshooting */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    text-align :center;
+}
+th {
+    background-color: #f2f2f2;
+    
+}
+.status-diproses {
+    background-color: orange;
+}
+.status-gagal {
+    background-color: red;
+    color: white;
+}
+.status-selesai {
+    background-color: green;
+    color: white;
+}

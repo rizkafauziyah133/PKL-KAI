@@ -1,0 +1,251 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Background */
+.container-background {
+    background-image: url(../../asset/login-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Logo */
+.container-logo {
+    background-color: rgb(128, 128, 128, 0.8);
+    width: 230px;
+    height: 100px;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 0.5;
+    border: 3px solid black;
+}
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+/* Form Login */
+#container-login-admin {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 5px grey;
+    height: 380px;
+    width: 420px;
+    overflow: hidden;  
+}
+.login-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 10px 20px 10px;
+    margin-right: 0px;
+    flex-grow: 1;
+}
+.form-login {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.login-label {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.login-input {
+    margin-bottom: 12px;
+    height: 27px;
+}
+.login-input:hover {
+    background: linear-gradient(to right, rgb(0, 0, 255, 0.1), white);
+}
+.login-button {
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: whitesmoke;
+    /*rgb(0, 0, 255, 0.2)*/
+}
+.login-button:hover {
+    background-color: rgb(245, 245, 55);
+    color: black;
+    transition: all 0.1s ease-in-out;
+}
+.reset-password {
+    display: flex;
+    margin-top: 20px;
+}
+.reset-password div {
+    font-size: 13px;
+}
+.reset-password a {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.container-login-all {
+    display: flex;
+    width: 100%;
+}
+
+/* Login User */
+#container-login-user {
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login-user {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom-left-radius: 16px;
+    box-shadow: 0px 0px 8px 4px rgb(207, 196, 196);
+}
+#login-user:hover {
+    background-color: rgb(219, 219, 219, 0.8);
+    color: black;
+    transition: all 0.1s ease-in;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Background */
+.container-background {
+    background-image: url(../../asset/login-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* Logo */
+.container-logo {
+    background-color: rgba(128, 128, 128, 0.8);
+    width: 230px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    z-index: 10;
+}
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+/* Form Login */
+#container-login-admin {
+    display: flex;
+}
+#container-login-user {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 5px grey;
+    height: 380px;
+    width: 420px;
+    overflow: hidden;
+}
+.login-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 10px;
+    margin-right: 0;
+    flex-grow: 1;
+    cursor: pointer;
+}
+.form-login {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.login-label {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.login-input {
+    margin-bottom: 12px;
+    height: 27px;
+}
+.login-input:hover {
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.1), white);
+}
+.login-button {
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: whitesmoke;
+}
+.login-button:hover {
+    background-color: rgb(245, 245, 55);
+    color: black;
+    transition: all 0.1s ease-in-out;
+}
+
+/* Button Reset Password*/
+.reset-password {
+    display: flex;
+    margin-top: 20px;
+}
+.reset-password div {
+    font-size: 13px;
+}
+.reset-password a {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
